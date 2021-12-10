@@ -1,0 +1,117 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+    color: #0a1e7f;
+}
+
+.father-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+.navigation-container{
+    height: 61px;
+    width: 100vw;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+    padding: 0 6vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.span-container{
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: .44px;
+    text-transform: uppercase;
+    display: flex;
+    height: 61px;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    background-color: #fff;
+    border: none;
+}
+.nav-button{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    color: #0a1e7f;
+}
+.menu{
+    
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.input-container{
+    height: 40vh;
+    width: 100vw;
+    padding: 24px;
+    background-color: #0a1e7f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-child{
+    height: 380px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+.unshaad{
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-stretch: normal;
+    letter-spacing: -.4px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #00b2ff;
+    border: none;
+}
+.email{
+    margin-right: 12px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #dbe2eb;
+    background-color: #fff;
+    color: #000;
+    flex: 1 1;
+}
+h2{
+    margin-top: 61px;
+    font-size: 1.8rem;
+}
+span{
+    font-size: 18px;
+}
+.inputButton{
+    margin-top: 20px;
+}
+@media screen and (max-width:375px ){
+    .nav-button{
+        display: none;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+    .phonepic{
+        display: none;
+    }
+}
